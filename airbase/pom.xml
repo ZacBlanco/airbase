@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.facebook.airlift</groupId>
+    <groupId>com.github.zacblanco.airbase</groupId>
     <artifactId>airbase</artifactId>
-    <version>104-SNAPSHOT</version>
+    <version>upgradeJava21Jitpack-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>airbase</name>
@@ -46,6 +46,10 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
+        </repository>
+        <repository>
+            <id>jitpack</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
@@ -723,9 +727,9 @@
                         <!-- the Maven Release plugin. The "project.version" property cannot be -->
                         <!-- used here as it will resolve to the version of the child project.  -->
                         <dependency>
-                            <groupId>com.facebook.airlift</groupId>
+                            <groupId>com.github.zacblanco.airbase</groupId>
                             <artifactId>airbase-policy</artifactId>
-                            <version>104-SNAPSHOT</version>
+                            <version>upgradeJava21Jitpack-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                     <configuration>
@@ -849,9 +853,9 @@
                         <!-- the Maven Release plugin. The "project.version" property cannot be -->
                         <!-- used here as it will resolve to the version of the child project.  -->
                         <dependency>
-                            <groupId>com.facebook.airlift</groupId>
+                            <groupId>com.github.zacblanco.airbase</groupId>
                             <artifactId>airbase-policy</artifactId>
-                            <version>104-SNAPSHOT</version>
+                            <version>upgradeJava21Jitpack-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                     <executions>
